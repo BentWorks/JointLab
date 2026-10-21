@@ -4,7 +4,7 @@ JointLab is an educational joinery atlas and an experimental FDM modular-connect
 
 ## Available now
 
-- A 77-pattern searchable woodworking and printable-joint atlas, with application filters and a suitability guide.
+- A curated, 25-pattern shortlist focused on potentially useful FDM modular joints, with application filters and a suitability guide.
 - Representative SVG exploded/assembled diagrams for joint families. These are **not** dimensionally exact drawings for every individual joint.
 - A parametric sliding-dovetail tongue/socket generator with rotated and exploded views, dimensions, and separate STL exports.
 - A three-position rectangular clearance gauge producing matching male/female STL plates. Tests clearance per side, not tensile strength.
@@ -15,6 +15,10 @@ JointLab is an educational joinery atlas and an experimental FDM modular-connect
 - Both clearance-gauge STL solids were checked for unmatched mesh edges (0 unmatched edges at representative defaults).
 - Browser UI of the published dovetail generator was checked for loading and assembled-view switching.
 - **No physical fit, wear, strength, or fatigue tests have been performed.** STL mesh validity alone does not establish printability, dimensional accuracy, or load capacity.
+
+## Inclusion policy (October 2026)
+
+JointLab is a 3D-printing project, not a woodworking encyclopedia. Show only connections with a plausible practical benefit for FDM modular assembly without metal fasteners, glue, or nails. Favor mechanical retention, workable print orientations, sensible tolerances, repeat assembly, and load paths. Traditional joinery may inspire these mechanisms but historical significance alone does not earn a listing. Gravity-only cabin notches, glue-dependent decorative woodworking, and complex structural timber splices are excluded from the active catalog. The 25 remaining entries are candidate ideas, **not** 25 proven print-ready designs. Audit each candidate for actual geometry and test results before upgrading its status.
 
 ## Next implementation candidates
 
