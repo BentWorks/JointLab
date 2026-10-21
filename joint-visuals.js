@@ -24,8 +24,17 @@
     .visual-controls button{border:1px solid #446b68;border-radius:9px;background:#22443f;color:#d9fff0;padding:9px 13px;font-weight:700;cursor:pointer}
     .visual-controls button.active{background:#78e4ba;color:#06261b}
     .visual-controls span{font-size:12px;color:#9cb6be}
+    .tabs .generator-link{display:inline-flex;align-items:center;padding:18px 12px;color:#8ff0c7;text-decoration:none;font-weight:800;white-space:nowrap;border-bottom:3px solid #498c72;font-size:14px}
   `;
   document.head.appendChild(css);
+  const nav = document.querySelector('.tabs');
+  if (nav && !nav.querySelector('.generator-link')) {
+    const entry = document.createElement('a');
+    entry.className = 'generator-link';
+    entry.href = 'generator.html';
+    entry.textContent = '05 — 3D Generator ↗';
+    nav.appendChild(entry);
+  }
 
   function kind(x) {
     const n = x.name.toLowerCase();
