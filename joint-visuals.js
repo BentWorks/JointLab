@@ -35,6 +35,13 @@
     entry.textContent = '05 — 3D Generator ↗';
     nav.appendChild(entry);
   }
+  if (nav && !nav.querySelector('.fit-link')) {
+    const entry = document.createElement('a');
+    entry.className = 'generator-link fit-link';
+    entry.href = 'fit-lab.html';
+    entry.textContent = '06 — Fit Lab ↗';
+    nav.appendChild(entry);
+  }
 
   function kind(x) {
     const n = x.name.toLowerCase();
