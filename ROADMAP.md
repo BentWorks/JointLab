@@ -16,6 +16,10 @@ JointLab is an educational joinery atlas and an experimental FDM modular-connect
 - Browser UI of the published dovetail generator was checked for loading and assembled-view switching.
 - **No physical fit, wear, strength, or fatigue tests have been performed.** STL mesh validity alone does not establish printability, dimensional accuracy, or load capacity.
 
+## Catalog review (October 23, 2026)
+
+All 25 shortlisted entries now have a practical 3D-printing use case, principal limitation, and design-maturity label displayed in Joint Explorer. Current distribution: **5 strong candidates, 14 requiring redesign, 1 partial prototype, 5 concepts only**. "Strong candidate" means promising mechanical geometry, **not** physically tested or rated for strength. A new maturity filter allows browsing by status. The current scoring algorithm remains heuristic and should eventually be revised to account for maturity and confirmed print testing.
+
 ## Inclusion policy (October 2026)
 
 JointLab is a 3D-printing project, not a woodworking encyclopedia. Show only connections with a plausible practical benefit for FDM modular assembly without metal fasteners, glue, or nails. Favor mechanical retention, workable print orientations, sensible tolerances, repeat assembly, and load paths. Traditional joinery may inspire these mechanisms but historical significance alone does not earn a listing. Gravity-only cabin notches, glue-dependent decorative woodworking, and complex structural timber splices are excluded from the active catalog. The 25 remaining entries are candidate ideas, **not** 25 proven print-ready designs. Audit each candidate for actual geometry and test results before upgrading its status.
