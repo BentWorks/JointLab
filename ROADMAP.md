@@ -18,7 +18,7 @@ JointLab is an educational joinery atlas and an experimental FDM modular-connect
 
 ## Catalog review (October 23, 2026)
 
-All 25 shortlisted entries now have a practical 3D-printing use case, principal limitation, and design-maturity label displayed in Joint Explorer. Current distribution: **5 strong candidates, 14 requiring redesign, 1 partial prototype, 5 concepts only**. "Strong candidate" means promising mechanical geometry, **not** physically tested or rated for strength. A new maturity filter allows browsing by status. The current scoring algorithm remains heuristic and should eventually be revised to account for maturity and confirmed print testing.
+All 25 shortlisted entries now have a practical 3D-printing use case, principal limitation, and design-maturity label displayed in Joint Explorer. Current distribution: **5 strong candidates, 14 requiring redesign, 1 partial prototype, 5 concepts only**. "Strong candidate" means promising mechanical geometry, **not** physically tested or rated for strength. A new maturity filter allows browsing by status. The Joint Finder now sorts by audited design maturity before its heuristic scores and links the sliding dovetail to the existing STL generator. It does **not** claim that the ordinary sliding dovetail has an end-lock. Test with `node finder.test.cjs`. Strength data and physical testing remain outstanding.
 
 ## Inclusion policy (October 2026)
 
