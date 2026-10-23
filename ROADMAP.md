@@ -4,6 +4,8 @@ JointLab is an educational joinery atlas and an experimental FDM modular-connect
 
 ## Available now
 
+- Experimental three-part cross-pinned tongue/sleeve/pin STL generator at `pinned-connector.html`. The installed pin blocks axial separation, but is **not captive** and can fall out. It is a separate alternative to the planned captive keyed-dovetail, not a finished variant of that design. No physical print testing has been done.
+
 - A curated, 25-pattern shortlist focused on potentially useful FDM modular joints, with application filters and a suitability guide.
 - Representative SVG exploded/assembled diagrams for joint families. These are **not** dimensionally exact drawings for every individual joint.
 - A parametric sliding-dovetail tongue/socket generator with rotated and exploded views, dimensions, and separate STL exports.
